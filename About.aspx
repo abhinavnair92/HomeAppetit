@@ -1,0 +1,12 @@
+﻿<%@ Page Title="About Us" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="About.aspx.cs" Inherits="About" %>
+
+<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+
+    <h2><%: Title %>.</h2>
+    <h3>Fresh. Delivered.</h3>
+    <p style="text-align: justify">We know how busy you are, we know how important it is to be healthy, we were in your shoes. 
+        When the founders were in graduate school, they were a long way from home. Mom wasn't there to cook them a proper meal. Eating out was good
+        but they knew 
+        how important it was to eat healthy. Thus HomeAppetit was born.</p>
+    <p style="text-align: justify">We are dedicated to bringing you the taste of home and the healthy alternative to eating out. We bring you the ingredients fresh and all you need to do is follow the simple recipe provided to enjoy a great meal.</p>
+</asp:Content>
