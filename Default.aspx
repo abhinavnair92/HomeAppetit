@@ -22,7 +22,7 @@
             <p>
                 HomeAppetit is the home(ahem) for more than 100 recipes! Discover the ones you love.</p>
             <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301949">Discover &raquo;</a>
+                <a class="btn btn-default" href="Recipes/Recipe1.aspx">Discover &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">
