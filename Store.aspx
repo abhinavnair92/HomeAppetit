@@ -2,9 +2,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="Server">
 
-    <section class='row-fluid' id='menu-items' style="max-height:1400px">
-
-        <div class='container menu-items-in clearfix'>
+        
             <div class='recipe-thumb span4' style="height: 389px; width: 442px; position: relative; top: 40px;">
                 <a href="Recipes/Recipe1.aspx">
                     <img alt="5-Spice Pork Buns with Red Cabbage, Carrot &amp; Thai Basil Salad" src="Assets/RecipeImages/ButterChicken.JPG" />
@@ -52,14 +50,5 @@
                 <h2>with Feta Cheese &amp; Toasted Whole Wheat Pita Chips</h2>
             </div>
 
-            <div class='container cookbook-linker'style="position:relative; top: -995px; left: 0px;">
-            
-            <div class='page-link'>
-                Want to see all our recipes? Check out our <a href="/cookbook">Cookbook</a>
-            </div>
-                </div>
-        </div>
-
-    </section>
 </asp:Content>
 

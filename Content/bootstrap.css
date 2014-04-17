@@ -34,7 +34,8 @@ nav,
 section,
 summary {
   display: block;
-    height: 1395px;
+    height: 26px;
+    margin-bottom: 0px;
 }
 
 audio,
