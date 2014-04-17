@@ -34,9 +34,7 @@ nav,
 section,
 summary {
   display: block;
-    height: 40px;
-    margin-left: 0px;
-    padding-left: 0px;
+    height: 1395px;
 }
 
 audio,
@@ -61,7 +59,7 @@ html {
 }
 
 body {
-    margin: 0;
+  margin: 0;
 }
 
 a:focus {
@@ -404,9 +402,7 @@ hr {
 }
 
 p {
-  margin: 0px 0 10px 0;
-    padding-left: 13px;
-    padding-top: 0px;
+  margin: 0 0 10px;
 }
 
 .lead {
@@ -522,17 +518,11 @@ h1,
 h2,
 .h2 {
   font-size: 30px;
-    height: 36px;
-    width: 977px;
-    margin-left: 0px;
-    padding-left: 10px;
-    padding-top: 0px;
 }
 
 h3,
 .h3 {
   font-size: 24px;
-    padding-left: 7px;
 }
 
 h4,
