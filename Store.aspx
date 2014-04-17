@@ -24,7 +24,7 @@
                     <img alt="Cod over Linguini with Fresh Peas, Meyer Lemon &amp; Spring Herbs" src="//media.blueapron.com/recipes/164/c_main_dish_images/20140410-2138-2-4278/Cod_20Linguine_20Peas-1386_high_menu_thumb.jpg" />
                 </a>
                 <h1><a href="/recipes/linguine-with-cod-fresh-peas-spring-herbs">Cod over Linguini</a></h1>
-                <h2>with Fresh Peas, Meyer Lemon &amp; Spring Herbs</h2>
+                <h2>with Fresh Peas, Meyeru Lemon &amp; Spring Herbs</h2>
             </div>
 
             <div class='container menu-items-in clearfix' style="width: 502px; position: relative; left: 418px; top: -700px;">
