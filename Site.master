@@ -14,9 +14,18 @@
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/homeappetit.ico" rel="shortcut icon" type="image/x-icon" />
 
+    <style type="text/css">
+        .newStyle1 {
+            background-color: #FFFFFF;
+        }
+        .newStyle2 {
+            color: #FFFFCC;
+        }
+    </style>
+
 </head>
-<body>
-    <form runat="server">
+<body style="background-color: #f63a3a;">
+    <form runat="server" >
         <asp:ScriptManager runat="server">
             <Scripts>
                 <%--To learn more about bundling scripts in ScriptManager see http://go.microsoft.com/fwlink/?LinkID=301884 --%>
@@ -76,12 +85,13 @@
                 </div>
             </div>
         </div>
+
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - 512 Team 10 Project</p>
+                <p style="color: #FCFCFC">&copy; <%: DateTime.Now.Year %> - EC512 Team 10 Project</p>
             </footer>
         </div>
     </form>
