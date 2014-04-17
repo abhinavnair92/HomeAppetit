@@ -3,3 +3,9 @@ C:\Users\Abhinav Nair\Desktop\HomeAppetit\HomeAppetit\HomeAppetit\bin\HomeAppeti
 C:\Users\Abhinav Nair\Desktop\HomeAppetit\HomeAppetit\HomeAppetit\bin\HomeAppetit.pdb
 C:\Users\Abhinav Nair\Desktop\HomeAppetit\HomeAppetit\HomeAppetit\obj\Debug\HomeAppetit.dll
 C:\Users\Abhinav Nair\Desktop\HomeAppetit\HomeAppetit\HomeAppetit\obj\Debug\HomeAppetit.pdb
+C:\Users\Abhinav Nair\Documents\GitHub\HomeAppetit\bin\HomeAppetit.dll.config
+C:\Users\Abhinav Nair\Documents\GitHub\HomeAppetit\bin\HomeAppetit.dll
+C:\Users\Abhinav Nair\Documents\GitHub\HomeAppetit\bin\HomeAppetit.pdb
+C:\Users\Abhinav Nair\Documents\GitHub\HomeAppetit\obj\Debug\HomeAppetit.csprojResolveAssemblyReference.cache
+C:\Users\Abhinav Nair\Documents\GitHub\HomeAppetit\obj\Debug\HomeAppetit.dll
+C:\Users\Abhinav Nair\Documents\GitHub\HomeAppetit\obj\Debug\HomeAppetit.pdb
