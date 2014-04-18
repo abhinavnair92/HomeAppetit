@@ -3,7 +3,9 @@
 <%@ Register Src="~/Account/OpenAuthProviders.ascx" TagPrefix="uc" TagName="OpenAuthProviders" %>
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
-    <h2><%: Title %>.</h2>
+    <br/>
+   <div style="background-color: #FFFFCC; padding-left: 8px; border-radius:10px; padding-top: 1px; padding-bottom: 8px;">
+     <h2><%: Title %>.</h2>
 
     <div class="row">
         <div class="col-md-8">
@@ -58,5 +60,6 @@
             </section>
         </div>
     </div>
+       </div>
 </asp:Content>
 

@@ -1,6 +1,8 @@
 ﻿<%@ Page Title="Register" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="Register.aspx.cs" Inherits="Account_Register" %>
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
+    <br />
+    <div style="background-color: #FFFFCC; padding-left: 8px; border-radius:10px; padding-top: 1px; padding-bottom: 8px;">
     <h2><%: Title %>.</h2>
     <p class="text-danger">
         <asp:Literal runat="server" ID="ErrorMessage" />
@@ -42,5 +44,6 @@
             </div>
         </div>
     </div>
+        </div>
 </asp:Content>
 
