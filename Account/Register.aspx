@@ -2,19 +2,12 @@
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
     <br />
-<<<<<<< HEAD
     <div style="background-color: #FFFFCC; padding-left: 8px; border-radius:10px; padding-top: 1px; padding-bottom: 8px;">
     <h2><%: Title %>.</h2>
     <p class="text-danger">
         <asp:Literal runat="server" ID="ErrorMessage" />
     </p>
-=======
-    <div style="background-color: #FFFFCC; padding-left: 8px; border-radius: 10px; padding-top: 1px; padding-bottom: 10px;">
-        <h2><%: Title %>.</h2>
-        <p class="text-danger">
-            <asp:Literal runat="server" ID="ErrorMessage" />
-        </p>
->>>>>>> origin/joe
+
 
         <div class="form-horizontal">
             <h4>Create a new account.</h4>
@@ -53,6 +46,6 @@
             </div>
         </div>
     </div>
-        </div>
+        
 </asp:Content>
 
