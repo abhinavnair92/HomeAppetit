@@ -3,6 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="Server">
     <br />
     <br />
+
     <div id="Sec1" style="position: relative; left: 80px; top: -4px; height: 291px;">
         <asp:Image ID="ButterChickenImage" runat="server" ImageUrl="~/Assets/RecipeImages/ButterChicken.JPG" ImageAlign="Middle" />
         <h1 style="text-align: left; position: inherit; top: -289px; left: 466px; width: 265px;">Butter Chicken</h1>
@@ -12,8 +13,10 @@
                                                                                               A heartwarming favorite at home, a staple at most Indian restaurants, this north Indian dish has made its place in every corner of the world. And here I am, finally posting the recipe of this favorite dish. I have been seeing searches in my blog for the Butter Chicken and Naan and realized that I have not posted either one of them.
         </p>
         <h3 style="text-align: right; position: inherit; top: -289px; left: 466px; width: 550px;" href=""></h3>
+        
+
     </div>
-    <div class='ingredients-list'style="position: relative; left: 80px; top: 0px; width: 404px;">
+    <div class='ingredients-list' style="position: relative; left: 80px; top: 0px; width: 404px;">
         <h3>Ingredients</h3>
         <ul>
             <li itemprop='ingredients'>2 Cloves Garlic</li>
@@ -31,7 +34,7 @@
             <li itemprop='ingredients'>1/2 Cup Low-Fat Milk</li>
         </ul>
     </div>
-    <div class='recipe-list'style="position: relative; left: 548px; top: -327px; width: 550px;">
+    <div class='recipe-list' style="position: relative; left: 548px; top: -327px; width: 550px;">
         <h3>Recipe - This is how we do!</h3>
         <ol>
             <li itemprop='step1'>Make incisions with a sharp knife on breast and leg pieces of the chicken. Apply a mixture of red chilli powder, lemon juice and salt to the chicken and set aside for half an hour.</li>
@@ -45,7 +48,7 @@
             <li itemprop='step5'>Add tomato puree, red chilli powder, garam masala powder, salt and one cup of water. Bring to a boil. Reduce heat and simmer for ten minutes. Add sugar or honey and powdered kasoori methi. Add cooked tandoori chicken pieces. Simmer for five minutes and then add fresh cream.</li>
             <br />
             <li itemprop='step6'>Serve hot with naan or parantha.</li>
-    
+
         </ol>
     </div>
 </asp:Content>
