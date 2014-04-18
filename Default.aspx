@@ -39,7 +39,7 @@
                 Made something and proud of it? Share it with our other users at our unified blog!
             </p>
             <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301950">Blog &raquo;</a>
+                <a class="btn btn-default" href="/Blog">Blog &raquo;</a>
             </p>
         </div>
     </div>
