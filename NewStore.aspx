@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Store" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="NewStore.aspx.cs" Inherits="NewStore" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="NewStore.aspx.cs" Inherits="NewStore" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" Runat="Server">
     <!doctype html>
@@ -29,8 +29,7 @@
         bootstrap fluid layout
         (12 columns: span 10, offset 1 centers the content and adds a margin on each side)
     -->
-      <br/>
-    <div class="container-fluid" style="background-color: #FFFFCC; border-radius:10px; padding-top: 18px;">
+    <div class="container-fluid">
         <div class="row-fluid">
             <div class="span10 offset1">
                 <h1 class="well" >

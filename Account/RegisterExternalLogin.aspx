@@ -1,8 +1,7 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="RegisterExternalLogin.aspx.cs" Inherits="Account_RegisterExternalLogin" Async="true" %>
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
-   <div style="background-color: #FFFFCC; padding-left: 8px; border-radius:10px;">
-     <h3>Register with your <%: ProviderName %> account</h3>
+    <h3>Register with your <%: ProviderName %> account</h3>
 
     <asp:PlaceHolder ID="PlaceHolder1" runat="server">
         <div class="form-horizontal">
@@ -30,7 +29,5 @@
                 </div>
             </div>
         </div>
-
     </asp:PlaceHolder>
-       </div>
 </asp:Content>
