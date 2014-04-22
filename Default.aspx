@@ -39,7 +39,11 @@
                 Made something and proud of it? Share it with our other users at our unified blog!
             </p>
             <p>
+<<<<<<< HEAD
                 <a class="btn btn-default" href="Blog" style="background-color:rgba(138,43,226,1); color: #FFFFFF;";>Blog &raquo;</a>
+=======
+                <a class="btn btn-default" href="/Blog">Blog &raquo;</a>
+>>>>>>> origin/joemok
             </p>
         </div>
     </div>
