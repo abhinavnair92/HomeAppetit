@@ -91,15 +91,8 @@
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-<<<<<<< HEAD
-<<<<<<< HEAD
                 <p style="color: #FCFCFC">&copy; <%: DateTime.Now.Year %> - EC512 Team 10 Project</p>
-=======
-                <p style="color: #F5F5F5">&copy; <%: DateTime.Now.Year %> - EC512 Team 10 Project a</p>
->>>>>>> origin/joe
-=======
-                <p style="color: #F5F5F5">&copy; <%: DateTime.Now.Year %> - EC512 Team 10 Project</p>
->>>>>>> Revert
+
             </footer>
         </div>
     </form>
