@@ -33,6 +33,10 @@
     <h2><%: Title %>.</h2>
     <p>
     <br />
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/joe
     Questions? We have all your answers right here.</p>
         
     <p style="font-style:italic; font-size:large; color: white"> About the food </p> 
@@ -140,5 +144,11 @@ If we are not available in your area yet, create an account and we will notify y
 </DIV>
 
         </div>
+<<<<<<< HEAD
+=======
+
+
+</asp:Content>
+>>>>>>> origin/joe
 
 </asp:Content>
