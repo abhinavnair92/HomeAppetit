@@ -24,7 +24,7 @@
     </style>
 
 </head>
-<body background-color: #FFFFCC; style="background-image: url('/Pictures/background.jpg')">
+<body style="background-color: #f63a3a;">
     <form runat="server" >
         <asp:ScriptManager runat="server">
             <Scripts>
@@ -47,9 +47,9 @@
             </Scripts>
         </asp:ScriptManager>
 
-        <div class="navbar navbar-inverse navbar-fixed-top" style="background-color:rgba(32,32,32,0.65)">
+        <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
-                <div class="navbar-header" >
+                <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -91,7 +91,7 @@
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p style="color: #F5F5F5">&copy; <%: DateTime.Now.Year %> - EC512 Team 10 Project</p>
+                <p style="color: #FCFCFC">&copy; <%: DateTime.Now.Year %> - EC512 Team 10 Project</p>
             </footer>
         </div>
     </form>

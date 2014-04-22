@@ -1,9 +1,9 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="Recipe1.aspx.cs" Inherits="Recipe1" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="Server">
-
     <br />
-    <div style="background-color: #FFFFCC; padding-left: 8px; border-radius:10px; padding-top: 22px; height: 862px;">
+    <br />
+
     <div id="Sec1" style="position: relative; left: 80px; top: -4px; height: 291px;">
         <asp:Image ID="ButterChickenImage" runat="server" ImageUrl="~/Assets/RecipeImages/ButterChicken.JPG" ImageAlign="Middle" />
         <h1 style="text-align: left; position: inherit; top: -289px; left: 466px; width: 265px;">Butter Chicken</h1>
@@ -51,6 +51,5 @@
 
         </ol>
     </div>
-        </div>
 </asp:Content>
 

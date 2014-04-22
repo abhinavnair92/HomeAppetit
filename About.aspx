@@ -2,8 +2,7 @@
 
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <br />
-    <div style="background-color: #FFFFCC; padding-left: 8px; border-radius:10px; padding-top:1px;">
+    <div style="background-color: #FFFFFF; padding-left: 8px; border-radius:10px">
     <h2><%: Title %>.</h2>
     <h3>Fresh. Delivered.</h3>
     <p style="text-align: justify; left:5px; width: 973px; padding-left: 7px; padding-right: 0px;">We know how busy you are, we know how important it is to be healthy, we were in your shoes. 
