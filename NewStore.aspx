@@ -1,6 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="NewStore.aspx.cs" Inherits="NewStore" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" Runat="Server">
+    <br />
+    <div style="background-color: #FFFFCC; padding-left: 8px; border-radius:10px; padding-top:1px; padding-bottom: 5px;">
     <!doctype html>
 <html ng-app="AngularStore">
   <head>
@@ -45,5 +47,6 @@
 
   </body>
 </html>
+        </div>
 </asp:Content>
 
