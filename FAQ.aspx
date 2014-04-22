@@ -31,6 +31,11 @@
     <h2><%: Title %>.</h2>
     <p>
     <br />
+<<<<<<< HEAD
+    FAQ Pages</p>
+        </div>
+</asp:Content>
+=======
     </p>
     <p style="font-style:italic; font-size:large; color: white"> About the food </p> 
     <DIV class="FAQ" onclick="toggle('faq1')">
@@ -135,5 +140,6 @@ If we are not available in your area yet, create an account and we will notify y
 <div style =" font-style:italic; font-weight:bold" >How do I cancel my subscription?</div>
  <div id="faq18" class="ANS">To cancel your account, email our customer service team at cancellations@blueapron.com before your weekly cutoff.</div>
 </DIV>
+>>>>>>> 4072f0b52fa69bbfe1d8a5ad72700fd76277faba
 
 </asp:Content>
