@@ -4,7 +4,7 @@
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
     <br />
-    <div style="background-color: #FFFFCC; padding-left: 8px; border-radius: 10px; padding-top: 1px; padding-bottom: 5px;">
+    <div style="background-color:rgba(255,255,255,0.9); padding-left: 8px; border-radius: 10px; padding-top: 1px; padding-bottom: 5px;">
         <h2><%: Title %>.</h2>
 
         <div class="row">
@@ -43,22 +43,25 @@
                         </div>
                         <div class="form-group">
                             <div class="col-md-offset-2 col-md-10">
-                                <asp:Button ID="Button1" runat="server" OnClick="LogIn" Text="Log in" CssClass="btn btn-default" />
+                                <asp:Button ID="Button1" runat="server" OnClick="LogIn" Text="Log in" CssClass="btn btn-default"/>
+                                <p>
+                                    <br />
+                                    <asp:HyperLink runat="server" ID="RegisterHyperLink" ViewStateMode="Disabled">Register</asp:HyperLink>
+                                    if you don't have a local account.
+                                </p>
                             </div>
                         </div>
                     </div>
-                    <p>
-                        <asp:HyperLink runat="server" ID="RegisterHyperLink" ViewStateMode="Disabled">Register</asp:HyperLink>
-                        if you don't have a local account.
-                    </p>
+
                 </section>
             </div>
 
-            <div class="col-md-4">
+            <!--<div class="col-md-4">
                 <section id="socialLoginForm">
                     <uc:OpenAuthProviders runat="server" ID="OpenAuthLogin" />
                 </section>
-            </div>
+            </div>-->
+
         </div>
     </div>
 </asp:Content>
