@@ -6,7 +6,7 @@
     <h2><%: Title %>.</h2>
     <p>
     <br />
-    FAQ Page</p>
+    FAQ Pages</p>
         </div>
 </asp:Content>
 
