@@ -2,7 +2,7 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-    <div class="jumbotron" style="background-color: #FF5050; background-image: url('Pictures/healthy-food1.jpg');">
+    <div class="jumbotron" style="background-color: #FF5050; background-image: url('Pictures/healthy-food1.jpg'); border-radius:15px">
         <h1 class="navbar"><span style="color:floralwhite; text-shadow:
             -1px -1px 0 #424242,
              1px -1px 0 #424242,
@@ -17,29 +17,29 @@
     </div>
 
     <div class="row">
-        <div class="col-md-4"  style="right: 5px; background-color: #FFFFFF; border-radius:25px;">
+        <div class="col-md-4"  style="right: 5px; background-color:rgba(255,255,255,0.8); border-radius:25px;">
             <h2>Jump on the Bandwagon!</h2>
             <p>
                 HomeAppetit wants to help you eat healthier, better, cheaper, easier. Not a member yet? Sign up!</p>
             <p>
-                <a runat="server" class="btn btn-default" href="~/Account/Register">Sign up &raquo;</a>
+                <a runat="server" class="btn btn-default" href="~/Account/Register" style=" background-color:rgba(138,43,226,1); color: #FFFFFF;">Sign up &raquo;</a>
             </p>
         </div>
-        <div class="col-md-4" style="background-color: #FFFFFF; border-radius:25px">
+        <div class="col-md-4" style="background-color:rgba(255,255,255,0.8); border-radius:25px">
             <h2>Explore!</h2>
             <p>
                 HomeAppetit is the home(ahem) for more than 100 recipes! Discover the ones you love.</p>
             <p>
-                <a class="btn btn-default" href="Recipes/Recipe1.aspx">Discover &raquo;</a>
+                <a class="btn btn-default" href="Recipes/Recipe1.aspx"; style="background-color:rgba(138,43,226,1); color: #FFFFFF;";>Discover &raquo;</a>
             </p>
         </div>
-        <div class="col-md-4" style="left: 5px; background-color: #FFFFFF; border-radius:25px">
+        <div class="col-md-4" style="left: 5px; background-color:rgba(255,255,255,0.8); border-radius:25px">
             <h2>Share!</h2>
             <p>
                 Made something and proud of it? Share it with our other users at our unified blog!
             </p>
             <p>
-                <a class="btn btn-default" href="Blog">Blog &raquo;</a>
+                <a class="btn btn-default" href="Blog" style="background-color:rgba(138,43,226,1); color: #FFFFFF;";>Blog &raquo;</a>
             </p>
         </div>
     </div>
