@@ -2,17 +2,17 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-    <div class="jumbotron" style="background-color: #FF5050; background-image: url('Pictures/healthy-food.jpg');">
+    <div class="jumbotron" style="background-color: #FF5050; background-image: url('Pictures/healthy-food1.jpg');">
         <h1 class="navbar"><span style="color:floralwhite; text-shadow:
-            -1px -1px 0 #808080,
-             1px -1px 0 #808080,
-             -1px 1px 0 #808080,
-             1px 1px 0 #808080;  ">Welcome to HomeAppetit!</span></h1>
+            -1px -1px 0 #424242,
+             1px -1px 0 #424242,
+             -1px 1px 0 #424242,
+             1px 1px 0 #424242; font-family: 'Myriad Pro';">Welcome to HomeAppetit!</span></h1>
         <p class="navbar"><span style="color:floralwhite; text-shadow:
-            -1px -1px 0 #808080,
-             1px -1px 0 #808080,
-             -1px 1px 0 #808080,
-             1px 1px 0 #808080;  ">We do the shopping, you do the cooking.</span></p>
+            -1px -1px 0 #424242,
+             1px -1px 0 #424242,
+             -1px 1px 0 #424242,
+             1px 1px 0 #424242; font-family: 'Myriad Pro';">We do the shopping, you do the cooking.</span></p>
         <p><a runat="server" href="~/About" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
     </div>
 
@@ -39,7 +39,7 @@
                 Made something and proud of it? Share it with our other users at our unified blog!
             </p>
             <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301950">Blog &raquo;</a>
+                <a class="btn btn-default" href="Blog">Blog &raquo;</a>
             </p>
         </div>
     </div>
