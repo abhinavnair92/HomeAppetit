@@ -91,7 +91,7 @@
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p style="color: #F5F5F5">&copy; <%: DateTime.Now.Year %> - EC512 Team 10 Project</p>
+                <p style="color: #F5F5F5">&copy; <%: DateTime.Now.Year %> - EC512 Team 10 Project a</p>
             </footer>
         </div>
     </form>
