@@ -27,26 +27,25 @@
                                  ? 'block' : 'none';
         }
 </script>
-
+    
+        <div> 
     <h2><%: Title %>.</h2>
     <p>
-    <br />
-<<<<<<< HEAD
-    FAQ Pages</p>
+    <br />   FAQ Pages</p>
         </div>
-</asp:Content>
-=======
-    </p>
+
+
+    
     <p style="font-style:italic; font-size:large; color: white"> About the food </p> 
     <DIV class="FAQ" onclick="toggle('faq1')">
  <div style =" font-style:italic; font-weight:bold" >What comes with each delivery?  </div>
- <div id="faq1" class="ANS">Your Blue Apron delivery comes with all the raw ingredients you need to produce 3 meals for the week, in exactly the right portions.  
+ <div id="faq1" class="ANS">Your HomeAppetit delivery comes with all the raw ingredients you need to produce 3 meals for the week, in exactly the right portions.  
      Each plate is designed to be a well-balanced, healthy meal.  In addition, each delivery comes with beautifully printed recipe cards and step-by-step instructions. 
     </div>
 </DIV>
 
     <DIV class="FAQ" onclick="toggle('faq2')">
-<div style =" font-style:italic; font-weight:bold" >What is special about Blue Apron’s ingredients? </div>
+<div style =" font-style:italic; font-weight:bold" >What is special about HomeAppetit’s ingredients? </div>
  <div id="faq2" class="ANS">We focus on only the highest quality ingredients, giving you the best food possible. We also source as much as possible from local suppliers with sustainable practices.</div>
 </DIV>
 
@@ -140,6 +139,5 @@ If we are not available in your area yet, create an account and we will notify y
 <div style =" font-style:italic; font-weight:bold" >How do I cancel my subscription?</div>
  <div id="faq18" class="ANS">To cancel your account, email our customer service team at cancellations@blueapron.com before your weekly cutoff.</div>
 </DIV>
->>>>>>> 4072f0b52fa69bbfe1d8a5ad72700fd76277faba
 
 </asp:Content>
