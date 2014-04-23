@@ -14,18 +14,9 @@
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/homeappetit.ico" rel="shortcut icon" type="image/x-icon" />
 
-    <style type="text/css">
-        .newStyle1 {
-            background-color: #FFFFFF;
-        }
-        .newStyle2 {
-            color: #FFFFCC;
-        }
-    </style>
-
 </head>
-<body style="background-color: #f63a3a;">
-    <form runat="server" >
+<body style="background-image: url('/Pictures/background.jpg')">
+    <form runat="server">
         <asp:ScriptManager runat="server">
             <Scripts>
                 <%--To learn more about bundling scripts in ScriptManager see http://go.microsoft.com/fwlink/?LinkID=301884 --%>
@@ -47,7 +38,7 @@
             </Scripts>
         </asp:ScriptManager>
 
-        <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar navbar-inverse navbar-fixed-top" style="background-color:rgba(0,0,0,0.6);">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -60,7 +51,7 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li><a runat="server" href="~/">Home</a></li>
-                        <li><a runat="server" href="~/NewStore">Store</a></li>
+                        <li><a runat="server" href="~/Store">Store</a></li>
                         <li><a runat="server" href="~/Blog">Blog</a></li>
                         <li><a runat="server" href="~/FAQ">FAQ</a></li>
                         <li><a runat="server" href="~/Contact">Contact</a></li>
@@ -85,13 +76,12 @@
                 </div>
             </div>
         </div>
-
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p style="color: #FCFCFC">&copy; <%: DateTime.Now.Year %> - EC512 Team 10 Project</p>
+                <p style="color: #FCFCFC">&copy; <%: DateTime.Now.Year %> - 512 Team 10 Project</p>
             </footer>
         </div>
     </form>

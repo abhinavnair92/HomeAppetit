@@ -40,6 +40,7 @@
             </p>
             <p>
                 <a class="btn btn-default" href="Blog" style="background-color:rgba(138,43,226,1); color: #FFFFFF;";>Blog &raquo;</a>
+
             </p>
         </div>
     </div>
