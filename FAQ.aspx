@@ -30,7 +30,7 @@
         </script>
 
         <h2><%: Title %>.</h2>
-        <p>
+        <p style="color: #333333">
             Questions? We have all your answers right here.
         </p>
         <br />
