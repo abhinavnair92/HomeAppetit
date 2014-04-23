@@ -37,7 +37,7 @@
                 <div class="row-fluid">
                     <div class="span10 offset1">
                         <h1 class="well">
-                            <a href="NewStore.aspx">
+                            <a href="Store.aspx">
                                 <img src="Assets/ico/homeappetit.png" height="60" width="60" alt="logo" />
                             </a>
                             HomeAppetit Store 
