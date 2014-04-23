@@ -2,7 +2,7 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <br />
-    <div style="background-color: #FFFFCC; padding-left: 8px; border-radius:10px; padding-top:1px; padding-bottom: 5px;">
+    <div style="background-color:rgba(255,255,255,0.9); padding-left: 8px; border-radius:10px; padding-top:1px; padding-bottom: 5px;">
     <h2><%: Title %>.</h2>
     <h3>Call Us.</h3>
     <address>

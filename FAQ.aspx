@@ -31,10 +31,9 @@
 
         <h2><%: Title %>.</h2>
         <p>
-            <br />
             Questions? We have all your answers right here.
         </p>
-
+        <br />
         <p style="font-style: italic; font-size: large; color: black">General </p>
         <div class="FAQ" onclick="toggle('faq1')" style="background-color: rgba(255,255,255,1); border-radius:10px">
             <div style="font-style: italic; font-weight: bold">What comes with each delivery?  </div>
