@@ -4,19 +4,12 @@
     <br />
     <div style="background-color: rgba(255,255,255,0.9); padding-left: 12px; border-radius: 10px; padding-top: 21px; padding-bottom: 5px; height: 846px;">
         <div id="Sec1" style="position: relative; left: 80px; top: -4px; height: 291px;">
-<<<<<<< HEAD:Recipes/Recipe1.aspx
-            <asp:Image ID="ButterChickenImage" runat="server" ImageUrl="~/Assets/RecipeImages/ButterChicken.JPG" ImageAlign="Middle"/>
-            <h1 style="text-align: left; position: inherit; top: -289px; left: 466px; width: 265px; font-family: Martina;">Butter Chicken</h1>
-            <h2 style="text-align: left; position: inherit; top: -289px; left: 466px; width: 265px; color: lightslategrey">with Rotis</h2>
-            <p style="text-align: left; position: inherit; top: -289px; left: 466px; width: 550px;">
-=======
             <asp:Image ID="buc" runat="server" ImageUrl="~/Assets/RecipeImages/buc.JPG" ImageAlign="Middle" />
            
             <h1 style="text-align: left; position: inherit; top: -289px; left: 466px; width: 500px"><br />Butter Chicken
                      </h1>
            
             <p style="text-align: left; position: inherit; top: -289px; left: 466px; width: 550px; color: black">
->>>>>>> origin/joe:Recipes/buc.aspx
                 This rich, buttery, creamy chicken needs no introduction. Most probably the best known of all Indian dishes, it has already claimed the fame that it deserves.
                                                                                               A heartwarming favorite at home, a staple at most Indian restaurants, this north Indian dish has made its place in every corner of the world. And here I am, finally posting the recipe of this favorite dish. I have been seeing searches in my blog for the Butter Chicken and Naan and realized that I have not posted either one of them.</p>
             <h3 style="text-align: right; position: inherit; top: -289px; left: 466px; width: 550px;" href=""></h3>

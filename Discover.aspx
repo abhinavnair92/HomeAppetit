@@ -7,12 +7,6 @@
         <p style="color: #333333">
             Come see what we have in store for you!
         </p>
-<<<<<<< HEAD
-
-        <a href="Recipes/Recipe1.aspx">
-            <img src="Assets/RecipeImages/ButterChicken.JPG" style="border-radius: 5px; width: 180px; height: 120px;">
-            Butter Chicken</a>
-=======
         <br />
 
 
