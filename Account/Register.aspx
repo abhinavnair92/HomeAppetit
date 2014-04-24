@@ -3,13 +3,13 @@
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
     <br />
     <div style="background-color:rgba(255,255,255,0.9); padding-left: 8px; border-radius: 10px; padding-top: 1px; padding-bottom: 5px;">
-        <h2><%: Title %>.</h2>
+        <h2 style="font-family: Martina;"><%: Title %>.</h2>
         <p class="text-danger">
             <asp:Literal runat="server" ID="ErrorMessage" />
         </p>
 
         <div class="form-horizontal">
-            <h4>Create a new account.</h4>
+            <h4>Are you ready for your own culinary adventure?</h4>
             <hr />
             <asp:ValidationSummary runat="server" CssClass="text-danger" />
             <div class="form-group">

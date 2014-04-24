@@ -354,6 +354,8 @@ a:focus {
 
 img {
   vertical-align: middle;
+    height: 122px;
+    width: 180px;
 }
 
 .img-responsive {
@@ -403,7 +405,7 @@ hr {
 
 p {
     margin: 0 0 10px;
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .lead {
@@ -4508,7 +4510,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse .navbar-brand {
-  color: #999999;
+    color: #999999;
+    font-family: Woodcut;
 }
 
 .navbar-inverse .navbar-brand:hover,

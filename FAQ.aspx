@@ -1,4 +1,4 @@
-﻿<%@ Page Title="FAQ" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="FAQ.aspx.cs" Inherits="FAQ" %>
+﻿<%@ Page Title="FAQs" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="FAQ.aspx.cs" Inherits="FAQ" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="Server">
 
@@ -29,8 +29,8 @@
             }
         </script>
 
-        <h2><%: Title %>.</h2>
-        <p>
+        <h2 style="font-family: Martina;"><%: Title %>.</h2>
+        <p style="color: #333333">
             Questions? We have all your answers right here.
         </p>
         <br />

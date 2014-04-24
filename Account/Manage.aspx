@@ -5,7 +5,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <br />
     <div style="background-color:rgba(255,255,255,0.9); padding-left: 8px; border-radius: 10px; padding-top: 1px; padding-bottom: 5px;">
-        <h2><%: Title %>.</h2>
+        <h2 style="font-family: Martina;"><%: Title %>.</h2>
 
         <div>
             <asp:PlaceHolder runat="server" ID="successMessage" Visible="false" ViewStateMode="Disabled">
@@ -18,16 +18,16 @@
             <div class="col-md-12">
                 <section id="passwordForm">
                     <asp:PlaceHolder runat="server" ID="setPassword" Visible="false">
-                        <p>
+                        <p style="color: #333333">
                             You do not have a local password for this site. Add a local
                         password so you can log in without an external login.
                         </p>
                         <div class="form-horizontal">
-                            <h4>Set Password Form</h4>
+                            <h4 style="color: #333333">Set Password Form</h4>
                             <hr />
                             <asp:ValidationSummary ID="ValidationSummary" runat="server" ShowModelStateErrors="true" CssClass="text-danger" />
                             <div class="form-group">
-                                <asp:Label ID="Label1" runat="server" AssociatedControlID="password" CssClass="col-md-2 control-label">Password</asp:Label>
+                                <asp:Label ID="Label1" runat="server" AssociatedControlID="password" CssClass="col-md-2 control-label" style="color: #333333">Password</asp:Label>
                                 <div class="col-md-10">
                                     <asp:TextBox runat="server" ID="password" TextMode="Password" CssClass="form-control" />
                                     <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="password"
@@ -39,7 +39,7 @@
                             </div>
 
                             <div class="form-group">
-                                <asp:Label ID="Label2" runat="server" AssociatedControlID="confirmPassword" CssClass="col-md-2 control-label">Confirm password</asp:Label>
+                                <asp:Label ID="Label2" runat="server" AssociatedControlID="confirmPassword" CssClass="col-md-2 control-label" style="color: #333333">Confirm password</asp:Label>
                                 <div class="col-md-10">
                                     <asp:TextBox runat="server" ID="confirmPassword" TextMode="Password" CssClass="form-control" />
                                     <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="confirmPassword"
@@ -60,12 +60,12 @@
                     </asp:PlaceHolder>
 
                     <asp:PlaceHolder runat="server" ID="changePasswordHolder" Visible="false">
-                        <p>You're logged in as <strong><%: User.Identity.GetUserName() %></strong>.</p>
+                        <p style="color: #333333">You're logged in as <strong><%: User.Identity.GetUserName() %></strong>.</p>
                         <div class="form-horizontal">
-                            <h4>Change Password Form</h4>
+                            <h4 style="color: #333333">Change Password Form</h4>
                             <asp:ValidationSummary runat="server" ShowModelStateErrors="true" CssClass="text-danger" />
                             <div class="form-group">
-                                <asp:Label runat="server" ID="CurrentPasswordLabel" AssociatedControlID="CurrentPassword" CssClass="col-md-2 control-label">Current password</asp:Label>
+                                <asp:Label runat="server" ID="CurrentPasswordLabel" AssociatedControlID="CurrentPassword" CssClass="col-md-2 control-label" style="color: #333333">Current password</asp:Label>
                                 <div class="col-md-10">
                                     <asp:TextBox runat="server" ID="CurrentPassword" TextMode="Password" CssClass="form-control" />
                                     <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="CurrentPassword"
@@ -74,7 +74,7 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <asp:Label runat="server" ID="NewPasswordLabel" AssociatedControlID="NewPassword" CssClass="col-md-2 control-label">New password</asp:Label>
+                                <asp:Label runat="server" ID="NewPasswordLabel" AssociatedControlID="NewPassword" CssClass="col-md-2 control-label" style="color: #333333">New password</asp:Label>
                                 <div class="col-md-10">
                                     <asp:TextBox runat="server" ID="NewPassword" TextMode="Password" CssClass="form-control" />
                                     <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="NewPassword"
@@ -83,7 +83,7 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <asp:Label runat="server" ID="ConfirmNewPasswordLabel" AssociatedControlID="ConfirmNewPassword" CssClass="col-md-2 control-label">Confirm new password</asp:Label>
+                                <asp:Label runat="server" ID="ConfirmNewPasswordLabel" AssociatedControlID="ConfirmNewPassword" CssClass="col-md-2 control-label" style="color: #333333">Confirm new password</asp:Label>
                                 <div class="col-md-10">
                                     <asp:TextBox runat="server" ID="ConfirmNewPassword" TextMode="Password" CssClass="form-control" />
                                     <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="ConfirmNewPassword"
