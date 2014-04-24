@@ -46,7 +46,7 @@
             </div>
             <div class="form-group">
                 <div class="col-md-offset-2 col-md-10">
-                    <asp:Button ID="SendMessage" runat="server" OnClick="Send_Message" Text="Spread The Love" CssClass="btn btn-default" />
+                    <asp:Button ID="SendMessage" runat="server" OnClick="Send_Message" Text="Spread The Love" CssClass="btn btn-default" style="background-color: #FF6666" />
                 </div>
             </div>    
 </div>
