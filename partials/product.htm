@@ -1,7 +1,10 @@
 ﻿<p class="text-info">
-    <img ng-src="Assets/img/products/{{product.sku}}.jpg" alt="{{product.name}}"/>
-    {{product.name}}: {{product.description}}<br />
+    <img ng-src="Assets/img/products2/{{product.sku}}.jpg" alt="{{product.name}}"/>
+    {{product.name}} - 
+    <a href="/Recipes/{{product.sku}}.aspx">Click here to explore the recipe</a><br />
 </p>
+
+
 
 <div class="container-fluid">
     <div class="row-fluid">
@@ -64,7 +67,7 @@
             <button 
                 class="btn btn-block" 
                 onclick="window.location.href=''">
-                <i class="icon-chevron-left" /> back to store
+                <i class="icon-chevron-left" /> Back to Store
             </button>
         </div>
     </div>
