@@ -246,6 +246,8 @@ shoppingCart.prototype.toNumber = function (value) {
     return isNaN(value) ? 0 : value;
 }
 
+
+
 //----------------------------------------------------------------
 // checkout parameters (one per supported payment service)
 //
