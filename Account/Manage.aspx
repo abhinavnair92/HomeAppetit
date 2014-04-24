@@ -5,7 +5,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <br />
     <div style="background-color:rgba(255,255,255,0.9); padding-left: 8px; border-radius: 10px; padding-top: 1px; padding-bottom: 5px;">
-        <h2><%: Title %>.</h2>
+        <h2 style="font-family: Martina;"><%: Title %>.</h2>
 
         <div>
             <asp:PlaceHolder runat="server" ID="successMessage" Visible="false" ViewStateMode="Disabled">

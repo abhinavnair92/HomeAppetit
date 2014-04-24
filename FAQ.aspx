@@ -29,7 +29,7 @@
             }
         </script>
 
-        <h2><%: Title %>.</h2>
+        <h2 style="font-family: Martina;"><%: Title %>.</h2>
         <p style="color: #333333">
             Questions? We have all your answers right here.
         </p>
