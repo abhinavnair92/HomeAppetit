@@ -354,9 +354,12 @@ a:focus {
 
 img {
   vertical-align: middle;
+<<<<<<< HEAD
     height: 122px;
-    width: 180px;
-}
+    }
+=======
+    }
+>>>>>>> origin/joe
 
 .img-responsive {
   display: block;
