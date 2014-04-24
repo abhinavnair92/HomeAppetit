@@ -36,7 +36,7 @@
             <div class="container-fluid">
                 <div class="row-fluid">
                     <div class="span10 offset1">
-                        <h1 class="well">
+                        <h1 class="well" style="font-family: Martina;">
                             <a href="Store.aspx">
                                 <img src="Assets/ico/homeappetit.png" height="60" width="60" alt="logo" />
                             </a>

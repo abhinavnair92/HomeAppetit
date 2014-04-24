@@ -5,13 +5,13 @@
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
     <br />
     <div style="background-color:rgba(255,255,255,0.9); padding-left: 8px; border-radius: 10px; padding-top: 1px; padding-bottom: 5px;">
-        <h2><%: Title %>.</h2>
+        <h2 style="font-family: Martina;"><%: Title %>.</h2>
 
         <div class="row">
             <div class="col-md-8">
                 <section id="loginForm">
                     <div class="form-horizontal">
-                        <h4 style="color: #333333">Use a local account to log in.</h4>
+                        <h4 style="color: #333333">Welcome back!</h4>
                         <hr \>
                         <asp:PlaceHolder runat="server" ID="ErrorMessage" Visible="false">
                             <p class="text-danger">

@@ -4,8 +4,8 @@
     <br />
     <div style="background-color: rgba(255,255,255,0.9); padding-left: 12px; border-radius: 10px; padding-top: 21px; padding-bottom: 5px; height: 846px;">
         <div id="Sec1" style="position: relative; left: 80px; top: -4px; height: 291px;">
-            <asp:Image ID="ButterChickenImage" runat="server" ImageUrl="~/Assets/RecipeImages/ButterChicken.JPG" ImageAlign="Middle" />
-            <h1 style="text-align: left; position: inherit; top: -289px; left: 466px; width: 265px;">Butter Chicken</h1>
+            <asp:Image ID="ButterChickenImage" runat="server" ImageUrl="~/Assets/RecipeImages/ButterChicken.JPG" ImageAlign="Middle"/>
+            <h1 style="text-align: left; position: inherit; top: -289px; left: 466px; width: 265px; font-family: Martina;">Butter Chicken</h1>
             <h2 style="text-align: left; position: inherit; top: -289px; left: 466px; width: 265px; color: lightslategrey">with Rotis</h2>
             <p style="text-align: left; position: inherit; top: -289px; left: 466px; width: 550px;">
                 This rich, buttery, creamy chicken needs no introduction. Most probably the best known of all Indian dishes, it has already claimed the fame that it deserves.
