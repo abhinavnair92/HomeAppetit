@@ -13,38 +13,11 @@
             <hr />
             <asp:ValidationSummary runat="server" CssClass="text-danger" />
             <div class="form-group">
-                <asp:Label runat="server" AssociatedControlID="UserName" CssClass="col-md-2 control-label">User name/Email</asp:Label>
+                <asp:Label runat="server" AssociatedControlID="UserName" CssClass="col-md-2 control-label">User name</asp:Label>
                 <div class="col-md-10">
                     <asp:TextBox runat="server" ID="UserName" CssClass="form-control" />
                     <asp:RequiredFieldValidator runat="server" ControlToValidate="UserName"
-                        CssClass="text-danger" ErrorMessage="The user name/email field is required." />
-                </div>
-            </div>
-            <div class="form-group">
-                <asp:Label runat="server" AssociatedControlID="Firstname" CssClass="col-md-2 control-label">First Name</asp:Label>
-                <div class="col-md-10">
-                    <asp:TextBox runat="server" ID="Firstname" CssClass="form-control" />
-                    <asp:RequiredFieldValidator runat="server" ControlToValidate="UserName"
-                        CssClass="text-danger" ErrorMessage="The first name field is required." />
-                </div>
-            </div>
-            <div class="form-group">
-                <asp:Label runat="server" AssociatedControlID="LastName" CssClass="col-md-2 control-label">Last Name</asp:Label>
-                <div class="col-md-10">
-                    <asp:TextBox runat="server" ID="Lastname" CssClass="form-control" />
-                    <asp:RequiredFieldValidator runat="server" ControlToValidate="Lastname"
-                        CssClass="text-danger" ErrorMessage="The Last name field is required." />
-                </div>
-            </div>
-             <div class="form-group">
-                <asp:Label runat="server" AssociatedControlID="Zipcode" CssClass="col-md-2 control-label">Zipcode</asp:Label>
-                <div class="col-md-10">
-                    <asp:RegularExpressionValidator runat="server" id="ZipCodeValidator" ControlToValidate="Zipcode"  
-                        ValidationExpression="^\d{5}$" />
-                    <asp:TextBox runat="server" ID="Zipcode" CssClass="form-control" />
-                    <asp:RequiredFieldValidator runat="server" ControlToValidate="Zipcode"
-                        CssClass="text-danger" ErrorMessage="The Zipcode field is required, or Invalid ZIP code 
-                        format; format should be 12345" />
+                        CssClass="text-danger" ErrorMessage="The user name field is required." />
                 </div>
             </div>
             <div class="form-group">
@@ -72,7 +45,6 @@
             </div>
         </div>
     </div>
-        
-</asp:Content>
 
+</asp:Content>
 

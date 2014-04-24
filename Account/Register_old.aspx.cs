@@ -15,7 +15,6 @@ public partial class Account_Register : Page
         {
             IdentityHelper.SignIn(manager, user, isPersistent: false);
             IdentityHelper.RedirectToReturnUrl(Request.QueryString["ReturnUrl"], Response);
-
         }
         else
         {
