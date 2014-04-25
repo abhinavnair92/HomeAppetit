@@ -146,7 +146,9 @@ shoppingCart.prototype.checkout = function (serviceName, clearCart) {
             this.checkoutPayPal(parms, clearCart);
             break;
         case "Google":
-            this.checkoutGoogle(parms, clearCart);
+            window.location.href("Checkout.aspx");
+            this.clearCart = clearCart == null || clearCart;
+            //this.checkoutGoogle(parms, clearCart);
             break;
         default:
             throw "Unknown checkout service: " + parms.serviceName;
