@@ -72,16 +72,20 @@
                         onclick="window.location.href='Store.aspx#/store'">
                     <i class="icon-chevron-left" /> back to store
                 </button>
+
                 <button class="btn btn-block btn-danger"
                         ng-click="cart.clearItems()"
                         ng-disabled="cart.getTotalCount() < 1">
                     <i class="icon-trash icon-white" /> clear cart
                 </button>
-                <a style="padding-left:80px;padding-top:50px" href="Checkout.aspx" title="go to shopping cart" ng-disabled="cart.getTotalCount() < 1">
+
+                <br />
+                <a style="padding-left:80px;" href="Checkout.aspx" title="go to shopping cart" ng-disabled="cart.getTotalCount() < 1">
                     <i class="icon-shopping-cart" />
                     <b>Secure Checkout</b>
                 </a>
-</p>
+
+            </p>
 
 
             <br /><br />
