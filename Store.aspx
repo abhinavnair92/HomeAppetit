@@ -2,55 +2,265 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="Server">
 
-  
     <br />
-    <div style="background-color: rgba(255,255,255,0.9); padding-left: 8px; border-radius: 10px; padding-bottom: 5px;">
+    <div style="background-color: rgba(255,255,255,0.9); padding-left: 8px; border-radius: 10px; padding-bottom: 5px; margin-top: 45px; height: 2750px;">
 
-        <html ng-app="AngularStore">
-        <head>
-            <title>Shopping Cart with AngularJS</title>
+        <div style="padding-top: 2px">
+            <h1 style="font-family: Martina;">
+                <a href="Store.aspx">
+                    <img src="Assets/ico/homeappetit.png" height="60" width="60" alt="logo" /></a>
+                HomeAppetit Store 
+            </h1>
+            <p style="color: #333333">
+                Found your favourites? Buy them! All of our recipes cost only <strong><span style="font-size: x-large">$9.99</span></strong><span style="font-size: x-large">!</span>
+            </p>
+            <p style="color: #333333">
+                &nbsp;
+            </p>
+        </div>
 
-            <!-- jQuery, Angular -->
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-            <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.5/angular.min.js" type="text/javascript"></script>
+        <div style="border-style: solid; border-width: thin; float: left; width: 828px; background-color: rgba(235,235,235,1); margin-top: 0px;">
+            <a href="Recipes/asp.aspx">
+                <img src="Assets/RecipeImages/asp.jpg" style="border-radius: 5px; width: 180px; height: 120px;">
+                Asparagus, Mushroom, and Sweet Bell Pepper Pasta with Goat Cheese
+            </a>
+        </div>
+        <div style="border-style: solid; border-width: thin; float: left; background-color: rgba(235,235,235,1); height: 122px; width: 136px; margin-left: 0px; margin-top: 0px; padding-top: 45px; padding-right: 0px;"
+            class="text-center">
+            <asp:Button ID="Button1" runat="server" Text="Add to Cart" />
+        </div>
 
-            <!-- Bootstrap -->
-            <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet" type="text/css" />
-            <!--<script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js" type="text/javascript" ></script>-->
+        <div style="border-style: solid; border-width: thin; float: left; width: 828px; background-color: rgba(255,255,255,1); margin-top: 0px;">
+            <a href="Recipes/bch.aspx">
+                <img src="Assets/RecipeImages/bch.jpg" style="border-radius: 5px; width: 180px; height: 120px;">
+                Basil Chicken over Angel Hair
+            </a>
+        </div>
+        <div style="border-style: solid; border-width: thin; float: left; background-color: rgba(255,255,255,1); height: 122px; width: 136px; margin-left: 0px; margin-top: 0px; padding-top: 45px; padding-right: 0px;"
+            class="text-center">
+            <asp:Button ID="Button3" runat="server" Text="Add to Cart" />
+        </div>
 
-            <!-- AngularStore app -->
-            <script src="Scripts/js/product.js" type="text/javascript"></script>
-            <script src="Scripts/js/store.js" type="text/javascript"></script>
-            <script src="Scripts/js/shoppingCart.js" type="text/javascript"></script>
-            <script src="Scripts/js/app.js" type="text/javascript"></script>
-            <script src="Scripts/js/controller.js" type="text/javascript"></script>
-            <link href="Content/css/style.css" rel="stylesheet" type="text/css" />
-        </head>
 
-        <body>
+        <div style="border-style: solid; border-width: thin; float: left; width: 828px; background-color: rgba(235,235,235,1); margin-top: 0px;">
+            <a href="Recipes/buc.aspx">
+                <img src="Assets/RecipeImages/buc.jpg" style="border-radius: 5px; width: 180px; height: 120px;">
+                Asparagus, Mushroom, and Sweet Bell Pepper Pasta with Goat Cheese
+            </a>
+        </div>
+        <div style="border-style: solid; border-width: thin; float: left; background-color: rgba(235,235,235,1); height: 122px; width: 136px; margin-left: 0px; margin-top: 0px; padding-top: 45px; padding-right: 0px;"
+            class="text-center">
+            <asp:Button ID="Button4" runat="server" Text="Add to Cart" />
+        </div>
 
-            <!-- 
-        bootstrap fluid layout
-        (12 columns: span 10, offset 1 centers the content and adds a margin on each side)
-    -->
-            <div class="container-fluid">
-                <div class="row-fluid">
-                    <div class="span10 offset1">
-                        <h1 class="well" style="font-family: Martina;">
-                            <a href="Store.aspx">
-                                <img src="Assets/ico/homeappetit.png" height="60" width="60" alt="logo" />
-                            </a>
-                            HomeAppetit Store 
-                        </h1>
-                       
-                        <div ng-view style="background-color: rgba(255,255,255,1);"></div>
-                    </div>
-                </div>
-            </div>
+        <div style="border-style: solid; border-width: thin; float: left; width: 828px; background-color: rgba(255,255,255,1); margin-top: 0px;">
+            <a href="Recipes/cbb.aspx">
+                <img src="Assets/RecipeImages/cbb.jpg" style="border-radius: 5px; width: 180px; height: 120px;">
+                Asparagus, Mushroom, and Sweet Bell Pepper Pasta with Goat Cheese
+            </a>
+        </div>
+        <div style="border-style: solid; border-width: thin; float: left; background-color: rgba(255,255,255,1); height: 122px; width: 136px; margin-left: 0px; margin-top: 0px; padding-top: 45px; padding-right: 0px;"
+            class="text-center">
+            <asp:Button ID="Button5" runat="server" Text="Add to Cart" />
+        </div>
 
-        </body>
-        </html>
+
+        <div style="border-style: solid; border-width: thin; float: left; width: 828px; background-color: rgba(235,235,235,1); margin-top: 0px;">
+            <a href="Recipes/ccp.aspx">
+                <img src="Assets/RecipeImages/ccp.jpg" style="border-radius: 5px; width: 180px; height: 120px;">
+                Asparagus, Mushroom, and Sweet Bell Pepper Pasta with Goat Cheese
+            </a>
+        </div>
+        <div style="border-style: solid; border-width: thin; float: left; background-color: rgba(235,235,235,1); height: 122px; width: 136px; margin-left: 0px; margin-top: 0px; padding-top: 45px; padding-right: 0px;"
+            class="text-center">
+            <asp:Button ID="Button6" runat="server" Text="Add to Cart" />
+        </div>
+
+        <div style="border-style: solid; border-width: thin; float: left; width: 828px; background-color: rgba(255,255,255,1); margin-top: 0px;">
+            <a href="Recipes/cma.aspx">
+                <img src="Assets/RecipeImages/cma.jpg" style="border-radius: 5px; width: 180px; height: 120px;">
+                Asparagus, Mushroom, and Sweet Bell Pepper Pasta with Goat Cheese
+            </a>
+        </div>
+        <div style="border-style: solid; border-width: thin; float: left; background-color: rgba(255,255,255,1); height: 122px; width: 136px; margin-left: 0px; margin-top: 0px; padding-top: 45px; padding-right: 0px;"
+            class="text-center">
+            <asp:Button ID="Button7" runat="server" Text="Add to Cart" />
+        </div>
+
+
+        <div style="border-style: solid; border-width: thin; float: left; width: 828px; background-color: rgba(235,235,235,1); margin-top: 0px;">
+            <a href="Recipes/cpa.aspx">
+                <img src="Assets/RecipeImages/cpa.jpg" style="border-radius: 5px; width: 180px; height: 120px;">
+                Asparagus, Mushroom, and Sweet Bell Pepper Pasta with Goat Cheese
+            </a>
+        </div>
+        <div style="border-style: solid; border-width: thin; float: left; background-color: rgba(235,235,235,1); height: 122px; width: 136px; margin-left: 0px; margin-top: 0px; padding-top: 45px; padding-right: 0px;"
+            class="text-center">
+            <asp:Button ID="Button8" runat="server" Text="Add to Cart" />
+        </div>
+
+        <div style="border-style: solid; border-width: thin; float: left; width: 828px; background-color: rgba(255,255,255,1); margin-top: 0px;">
+            <a href="Recipes/csc.aspx">
+                <img src="Assets/img/products/csc.jpg" style="border-radius: 5px; width: 180px; height: 120px;">
+                Asparagus, Mushroom, and Sweet Bell Pepper Pasta with Goat Cheese
+            </a>
+        </div>
+        <div style="border-style: solid; border-width: thin; float: left; background-color: rgba(255,255,255,1); height: 122px; width: 136px; margin-left: 0px; margin-top: 0px; padding-top: 45px; padding-right: 0px;"
+            class="text-center">
+            <asp:Button ID="Button9" runat="server" Text="Add to Cart" />
+        </div>
+
+
+        <div style="border-style: solid; border-width: thin; float: left; width: 828px; background-color: rgba(235,235,235,1); margin-top: 0px;">
+            <a href="Recipes/icc.aspx">
+                <img src="Assets/RecipeImages/icc.jpg" style="border-radius: 5px; width: 180px; height: 120px;">
+                Asparagus, Mushroom, and Sweet Bell Pepper Pasta with Goat Cheese
+            </a>
+        </div>
+        <div style="border-style: solid; border-width: thin; float: left; background-color: rgba(235,235,235,1); height: 122px; width: 136px; margin-left: 0px; margin-top: 0px; padding-top: 45px; padding-right: 0px;"
+            class="text-center">
+            <asp:Button ID="Button10" runat="server" Text="Add to Cart" />
+        </div>
+
+        <div style="border-style: solid; border-width: thin; float: left; width: 828px; background-color: rgba(255,255,255,1); margin-top: 0px;">
+            <a href="Recipes/kpc.aspx">
+                <img src="Assets/RecipeImages/kpc.jpg" style="border-radius: 5px; width: 180px; height: 120px;">
+                Asparagus, Mushroom, and Sweet Bell Pepper Pasta with Goat Cheese
+            </a>
+        </div>
+        <div style="border-style: solid; border-width: thin; float: left; background-color: rgba(255,255,255,1); height: 122px; width: 136px; margin-left: 0px; margin-top: 0px; padding-top: 45px; padding-right: 0px;"
+            class="text-center">
+            <asp:Button ID="Button11" runat="server" Text="Add to Cart" />
+        </div>
+
+
+        <div style="border-style: solid; border-width: thin; float: left; width: 828px; background-color: rgba(235,235,235,1); margin-top: 0px;">
+            <a href="Recipes/mni.aspx">
+                <img src="Assets/RecipeImages/mni.jpg" style="border-radius: 5px; width: 180px; height: 120px;">
+                Asparagus, Mushroom, and Sweet Bell Pepper Pasta with Goat Cheese
+            </a>
+        </div>
+        <div style="border-style: solid; border-width: thin; float: left; background-color: rgba(235,235,235,1); height: 122px; width: 136px; margin-left: 0px; margin-top: 0px; padding-top: 45px; padding-right: 0px;"
+            class="text-center">
+            <asp:Button ID="Button12" runat="server" Text="Add to Cart" />
+        </div>
+
+        <div style="border-style: solid; border-width: thin; float: left; width: 828px; background-color: rgba(255,255,255,1); margin-top: 0px;">
+            <a href="Recipes/pca.aspx">
+                <img src="Assets/RecipeImages/pca.jpg" style="border-radius: 5px; width: 180px; height: 120px;">
+                Asparagus, Mushroom, and Sweet Bell Pepper Pasta with Goat Cheese
+            </a>
+        </div>
+        <div style="border-style: solid; border-width: thin; float: left; background-color: rgba(255,255,255,1); height: 122px; width: 136px; margin-left: 0px; margin-top: 0px; padding-top: 45px; padding-right: 0px;"
+            class="text-center">
+            <asp:Button ID="Button13" runat="server" Text="Add to Cart" />
+        </div>
+
+
+        <div style="border-style: solid; border-width: thin; float: left; width: 828px; background-color: rgba(235,235,235,1); margin-top: 0px;">
+            <a href="Recipes/pcf.aspx">
+                <img src="Assets/RecipeImages/pcf.jpg" style="border-radius: 5px; width: 180px; height: 120px;">
+                Asparagus, Mushroom, and Sweet Bell Pepper Pasta with Goat Cheese
+            </a>
+        </div>
+        <div style="border-style: solid; border-width: thin; float: left; background-color: rgba(235,235,235,1); height: 122px; width: 136px; margin-left: 0px; margin-top: 0px; padding-top: 45px; padding-right: 0px;"
+            class="text-center">
+            <asp:Button ID="Button14" runat="server" Text="Add to Cart" />
+        </div>
+
+        <div style="border-style: solid; border-width: thin; float: left; width: 828px; background-color: rgba(255,255,255,1); margin-top: 0px;">
+            <a href="Recipes/psa.aspx">
+                <img src="Assets/RecipeImages/psa.jpg" style="border-radius: 5px; width: 180px; height: 120px;">
+                Asparagus, Mushroom, and Sweet Bell Pepper Pasta with Goat Cheese
+            </a>
+        </div>
+        <div style="border-style: solid; border-width: thin; float: left; background-color: rgba(255,255,255,1); height: 122px; width: 136px; margin-left: 0px; margin-top: 0px; padding-top: 45px; padding-right: 0px;"
+            class="text-center">
+            <asp:Button ID="Button15" runat="server" Text="Add to Cart" />
+        </div>
+
+
+        <div style="border-style: solid; border-width: thin; float: left; width: 828px; background-color: rgba(235,235,235,1); margin-top: 0px;">
+            <a href="Recipes/pzc.aspx">
+                <img src="Assets/RecipeImages/pzc.jpg" style="border-radius: 5px; width: 180px; height: 120px;">
+                Asparagus, Mushroom, and Sweet Bell Pepper Pasta with Goat Cheese
+            </a>
+        </div>
+        <div style="border-style: solid; border-width: thin; float: left; background-color: rgba(235,235,235,1); height: 122px; width: 136px; margin-left: 0px; margin-top: 0px; padding-top: 45px; padding-right: 0px;"
+            class="text-center">
+            <asp:Button ID="Button16" runat="server" Text="Add to Cart" />
+        </div>
+
+        <div style="border-style: solid; border-width: thin; float: left; width: 828px; background-color: rgba(255,255,255,1); margin-top: 0px;">
+            <a href="Recipes/rrc.aspx">
+                <img src="Assets/RecipeImages/rrc.jpg" style="border-radius: 5px; width: 180px; height: 120px;">
+                Asparagus, Mushroom, and Sweet Bell Pepper Pasta with Goat Cheese
+            </a>
+        </div>
+        <div style="border-style: solid; border-width: thin; float: left; background-color: rgba(255,255,255,1); height: 122px; width: 136px; margin-left: 0px; margin-top: 0px; padding-top: 45px; padding-right: 0px;"
+            class="text-center">
+            <asp:Button ID="Button17" runat="server" Text="Add to Cart" />
+        </div>
+
+
+        <div style="border-style: solid; border-width: thin; float: left; width: 828px; background-color: rgba(235,235,235,1); margin-top: 0px;">
+            <a href="Recipes/sca.aspx">
+                <img src="Assets/RecipeImages/sca.jpg" style="border-radius: 5px; width: 180px; height: 120px;">
+                Asparagus, Mushroom, and Sweet Bell Pepper Pasta with Goat Cheese
+            </a>
+        </div>
+        <div style="border-style: solid; border-width: thin; float: left; background-color: rgba(235,235,235,1); height: 122px; width: 136px; margin-left: 0px; margin-top: 0px; padding-top: 45px; padding-right: 0px;"
+            class="text-center">
+            <asp:Button ID="Button18" runat="server" Text="Add to Cart" />
+        </div>
+
+        <div style="border-style: solid; border-width: thin; float: left; width: 828px; background-color: rgba(255,255,255,1); margin-top: 0px;">
+            <a href="Recipes/spa.aspx">
+                <img src="Assets/RecipeImages/spa.jpg" style="border-radius: 5px; width: 180px; height: 120px;">
+                Asparagus, Mushroom, and Sweet Bell Pepper Pasta with Goat Cheese
+            </a>
+        </div>
+        <div style="border-style: solid; border-width: thin; float: left; background-color: rgba(255,255,255,1); height: 122px; width: 136px; margin-left: 0px; margin-top: 0px; padding-top: 45px; padding-right: 0px;"
+            class="text-center">
+            <asp:Button ID="Button19" runat="server" Text="Add to Cart" />
+        </div>
+
+
+        <div style="border-style: solid; border-width: thin; float: left; width: 828px; background-color: rgba(235,235,235,1); margin-top: 0px;">
+            <a href="Recipes/ssc.aspx">
+                <img src="Assets/RecipeImages/ssc.jpg" style="border-radius: 5px; width: 180px; height: 120px;">
+                Asparagus, Mushroom, and Sweet Bell Pepper Pasta with Goat Cheese
+            </a>
+        </div>
+        <div style="border-style: solid; border-width: thin; float: left; background-color: rgba(235,235,235,1); height: 122px; width: 136px; margin-left: 0px; margin-top: 0px; padding-top: 45px; padding-right: 0px;"
+            class="text-center">
+            <asp:Button ID="Button20" runat="server" Text="Add to Cart" />
+        </div>
+
+        <div style="border-style: solid; border-width: thin; float: left; width: 828px; background-color: rgba(255,255,255,1); margin-top: 0px;">
+            <a href="Recipes/szs.aspx">
+                <img src="Assets/RecipeImages/szs.jpg" style="border-radius: 5px; width: 180px; height: 120px;">
+                Asparagus, Mushroom, and Sweet Bell Pepper Pasta with Goat Cheese
+            </a>
+        </div>
+        <div style="border-style: solid; border-width: thin; float: left; background-color: rgba(255,255,255,1); height: 122px; width: 136px; margin-left: 0px; margin-top: 0px; padding-top: 45px; padding-right: 0px;"
+            class="text-center">
+            <asp:Button ID="Button21" runat="server" Text="Add to Cart" />
+        </div>
+
+        <div style="border-style: solid; border-width: thin; float: left; width: 828px; background-color: rgba(235,235,235,1); margin-top: 0px;">
+            <a href="Recipes/tcp.aspx">
+                <img src="Assets/RecipeImages/tcp.jpg" style="border-radius: 5px; width: 180px; height: 120px;">
+                Asparagus, Mushroom, and Sweet Bell Pepper Pasta with Goat Cheese
+            </a>
+        </div>
+        <div style="border-style: solid; border-width: thin; float: left; background-color: rgba(235,235,235,1); height: 122px; width: 136px; margin-left: 0px; margin-top: 0px; padding-top: 45px; padding-right: 0px;"
+            class="text-center">
+            <asp:Button ID="Button2" runat="server" Text="Add to Cart" />
+        </div>
 
     </div>
+
+
 </asp:Content>
 
