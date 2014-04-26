@@ -25,6 +25,7 @@ public class Product
 				this.Description = "Basil Chicken over Angel Hair";
 				break;
 			case 3:
+                this.Price = 9.99m;
 				this.Description = "Butter Chicken";
 				break;
             case 4:

@@ -11,11 +11,17 @@
     <body>
         <br />
         <div style="background-color: rgba(255,255,255,0.9); padding-left: 8px; border-radius: 10px; padding-top: 1px; padding-bottom: 5px;">
+            
             <div class="container">
-                <h1>Shopping Cart</h1>
+                <h1 style="font-family: Martina;">Shopping Cart</h1>
+                <p style="color: #333333">
+                    Review your order before you pay!
+                </p>
                 <a href="Store.aspx">&lt; Back to Products</a>
                 <br />
                 <br />
+
+
                 <asp:GridView runat="server" ID="gvShoppingCart" AutoGenerateColumns="false" EmptyDataText="There is nothing in your shopping cart." GridLines="None" Width="100%" CellPadding="5" ShowFooter="true" DataKeyNames="ProductId" OnRowDataBound="gvShoppingCart_RowDataBound" OnRowCommand="gvShoppingCart_RowCommand" OnSelectedIndexChanged="gvShoppingCart_SelectedIndexChanged">
                     <HeaderStyle HorizontalAlign="Left" BackColor="indianred" ForeColor="#FFFFFF" />
                     <FooterStyle HorizontalAlign="Right" BackColor="indianred" ForeColor="#FFFFFF" />
@@ -32,9 +38,12 @@
                         <asp:BoundField DataField="TotalPrice" HeaderText="Total" ItemStyle-HorizontalAlign="Right" HeaderStyle-HorizontalAlign="Right" DataFormatString="{0:C}" />
                     </Columns>
                 </asp:GridView>
+
                 <br />
                 <asp:Button runat="server" ID="btnUpdateCart" Text="Update Cart" OnClick="btnUpdateCart_Click" />
-                 <asp:Button runat="server" ID="Checkout" Text="Checkout" OnClick="Checkout_Click" />
+                &nbsp;<asp:Button runat="server" ID="Checkout" Text="Checkout" OnClick="Checkout_Click" />
+                <br />
+                <br />
             </div>
         </div>
     </body>
