@@ -2,7 +2,6 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="Server">
 
-    <br />
     <div style="background-color: rgba(255,255,255,0.9); padding-left: 8px; border-radius: 10px; padding-bottom: 5px; margin-top: 45px; height: 2750px;">
 
         <div style="padding-top: 2px">
@@ -13,9 +12,6 @@
             </h1>
             <p style="color: #333333">
                 Found your favourites? Buy them! All of our recipes cost only <strong><span style="font-size: x-large">$9.99</span></strong><span style="font-size: x-large">!</span>
-            </p>
-            <p style="color: #333333">
-                &nbsp;
             </p>
             
             <br />
@@ -259,6 +255,7 @@
             class="text-center">
             <asp:Button ID="Button2" runat="server" Text="Add to Cart" OnClick="Button21_Click"/>
         </div>
+        <br />
 
     </div>
 
