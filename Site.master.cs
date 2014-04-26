@@ -12,7 +12,7 @@ public partial class SiteMaster : MasterPage
     private const string AntiXsrfTokenKey = "__AntiXsrfToken";
     private const string AntiXsrfUserNameKey = "__AntiXsrfUserName";
     private string _antiXsrfTokenValue;
-
+    public int itemNumb=0, idfield = 0;
     protected void Page_Init(object sender, EventArgs e)
     {
         // The code below helps to protect against XSRF attacks
@@ -47,14 +47,18 @@ public partial class SiteMaster : MasterPage
 
     protected void master_Page_PreLoad(object sender, EventArgs e)
     {
+     
+
         if (!IsPostBack)
         {
+       
             // Set Anti-XSRF token
             ViewState[AntiXsrfTokenKey] = Page.ViewStateUserKey;
             ViewState[AntiXsrfUserNameKey] = Context.User.Identity.Name ?? String.Empty;
         }
         else
         {
+            
             // Validate the Anti-XSRF token
             if ((string)ViewState[AntiXsrfTokenKey] != _antiXsrfTokenValue
                 || (string)ViewState[AntiXsrfUserNameKey] != (Context.User.Identity.Name ?? String.Empty))
@@ -66,7 +70,10 @@ public partial class SiteMaster : MasterPage
 
     protected void Page_Load(object sender, EventArgs e)
     {
-
+       
+           ShoppingCart obj = new ShoppingCart(3);
+           itemNumb = obj.itemNum;
+     
     }
 
     protected void Unnamed_LoggingOut(object sender, LoginCancelEventArgs e)

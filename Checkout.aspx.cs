@@ -28,6 +28,9 @@ public partial class Checkout : System.Web.UI.Page
         else flag = 0;*/
         
        // if(flag != 1)
+        ShoppingCart obj = new ShoppingCart(4);
+        int numItems = obj.itemNum;
+        ShoppingCart.Instance.ClearCart();
         ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "success", "alert('Payment Submitted Successfully. You are Being Redirected to the Store Shortly!'); setInterval(function(){location.href='Store.aspx';},1000);", true);
         //Response.Redirect("Store.aspx", true);
     }
