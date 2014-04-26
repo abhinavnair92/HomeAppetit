@@ -70,7 +70,7 @@ public partial class ViewCart : System.Web.UI.Page
 					// Get the productId from the GridView's datakeys
 					int productId = Convert.ToInt32(gvShoppingCart.DataKeys[row.RowIndex].Value);
 					// Find the quantity TextBox and retrieve the value
-					int quantity = int.Parse(((TextBox)row.Cells[1].FindControl("txtQuantity")).Text);
+					int quantity = int.Parse(((Label)row.Cells[1].FindControl("txtQuantity")).Text);
 					ShoppingCart.Instance.SetItemQuantity(productId, quantity);
 				} catch (FormatException) { }
 			}
