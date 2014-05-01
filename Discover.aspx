@@ -93,7 +93,6 @@
             <img src="Assets/RecipeImages/tcp.jpg" style="border-radius: 5px; width: 180px; height: 120px;">
             </a><br />
 
->>>>>>> origin/joe
     </div>
 </asp:Content>
 
