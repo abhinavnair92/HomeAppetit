@@ -60,9 +60,6 @@ public class ShoppingCart
         }
     }
 
-    // A protected constructor ensures that an object can't be created from outside
-    //protected ShoppingCart() { }
-
     #endregion
 
     #region Item Modification Methods
